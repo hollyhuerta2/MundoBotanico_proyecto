@@ -5,13 +5,12 @@ import java.io.Serializable;
 public class TipoPlanta implements Serializable {
     private static final Long serialVersionUID = 1L;
     private int id_tipo;
-    private String tipo, tipo_hoja, altura;
+    private String tipo,descripcion;
     public TipoPlanta(){}
-    public TipoPlanta(int id_tipo, String tipo, String tipo_hoja, String altura) {
+    public TipoPlanta(int id_tipo, String tipo, String descripcion) {
         this.id_tipo = id_tipo;
         this.tipo = tipo;
-        this.tipo_hoja = tipo_hoja;
-        this.altura = altura;
+        this.descripcion = descripcion;
     }
     public int getId_tipo() {
         return id_tipo;
@@ -27,19 +26,10 @@ public class TipoPlanta implements Serializable {
         this.tipo = tipo;
     }
 
-    public String getTipo_hoja() {
-        return tipo_hoja;
+    public String getDescripcion() {
+        return descripcion;
     }
-
-    public void setTipo_hoja(String tipo_hoja) {
-        this.tipo_hoja = tipo_hoja;
-    }
-
-    public String getAltura() {
-        return altura;
-    }
-
-    public void setAltura(String altura) {
-        this.altura = altura;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 }

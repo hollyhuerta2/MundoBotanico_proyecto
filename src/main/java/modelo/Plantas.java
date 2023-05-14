@@ -5,17 +5,18 @@ import java.io.Serializable;
 public class Plantas implements Serializable {
     private int id_planta;
     private String nombre_com, nombre_cient;
-    private int tipofk, zonafk, familiafk;
+    private int tipofk, zonafk, familiafk,tipohojafk;
 
     public Plantas(){}
 
-    public Plantas(int id_planta, String nombre_com, String nombre_cient, int tipofk, int zonafk, int familiafk) {
+    public Plantas(int id_planta, String nombre_com, String nombre_cient, int tipofk, int zonafk, int familiafk,int tipohojafk) {
         this.id_planta = id_planta;
         this.nombre_com = nombre_com;
         this.nombre_cient = nombre_cient;
         this.tipofk = tipofk;
         this.zonafk = zonafk;
         this.familiafk = familiafk;
+        this.tipohojafk = tipohojafk;
     }
 
     public int getId_planta() {
@@ -64,5 +65,13 @@ public class Plantas implements Serializable {
 
     public void setFamiliafk(int familiafk) {
         this.familiafk = familiafk;
+    }
+
+    public int getTipohojafk() {
+        return tipohojafk;
+    }
+
+    public void setTipohojafk(int tipohojafk) {
+        this.tipohojafk = tipohojafk;
     }
 }
