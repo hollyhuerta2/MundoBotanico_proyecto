@@ -10,8 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Conexion/ConexionMain.java" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios nuevos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +189,7 @@
       <workItem from="1682813823955" duration="1551000" />
       <workItem from="1683349852510" duration="252000" />
       <workItem from="1683421223728" duration="3419000" />
-      <workItem from="1684044364299" duration="2999000" />
+      <workItem from="1684044364299" duration="3521000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -248,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684045095415</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New commit! cambios nuevos">
+      <created>1684047780213</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684047780213</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +265,7 @@
     <MESSAGE value="New commit! javaBeans" />
     <MESSAGE value="New commit!" />
     <MESSAGE value="New commit! cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios" />
+    <MESSAGE value="New commit! cambios nuevos" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios nuevos" />
   </component>
 </project>
