@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios nuevos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Datos/Main/UsuarioMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConexionMain">
+  <component name="RunManager" selected="Application.UsuarioMain">
     <configuration name="ConexionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conexion.ConexionMain" />
       <module name="MundoBotanico_proyecto" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Conexion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Datos.Main.UsuarioMain" />
+      <module name="MundoBotanico_proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Datos.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,6 +187,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsuarioMain" />
         <item itemvalue="Application.ConexionMain" />
       </list>
     </recent_temporary>
@@ -192,7 +206,7 @@
       <workItem from="1683421223728" duration="3419000" />
       <workItem from="1684044364299" duration="3521000" />
       <workItem from="1684649417110" duration="3095000" />
-      <workItem from="1684714477713" duration="5606000" />
+      <workItem from="1684714477713" duration="7839000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -271,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684652723003</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New commit! cambios nuevos">
+      <created>1684720573324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684720573324</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
