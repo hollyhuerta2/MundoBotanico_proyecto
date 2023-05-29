@@ -19,10 +19,11 @@ public class UsuarioMain {
             System.out.println("nombre de usuario: " + usuario.getId_usuarioN());
             System.out.println("\n");
         }
-        Usuario newUsuario = new Usuario(6,"Romi","choco","kuromi@hotmail.com","Kuromilovex" );
+        Usuario newUsuario = new Usuario(10,"Sofia","oliv","olivia21@hotmail.com","olivia" );
 
         int registrosAg = usuarioDAO.agregar(newUsuario);
         System.out.println("Registro agregado: "+ registrosAg);
+
 
         List<Usuario> usuarioafter = usuarioDAO.selecionar();
             System.out.println("\nLista de Usuarios actualizados! :D\n");
@@ -35,6 +36,19 @@ public class UsuarioMain {
                 System.out.println("nombre de usuario: " + usuario.getId_usuarioN());
                 System.out.println("\n");
             }
+
+        //modificar
+        int idUsuarioMod = 6;
+        Usuario usuarioExist = new Usuario(idUsuarioMod,null,null,null,"KuromilovEra7");
+            int registrosMod = usuarioDAO.modificar(usuarioExist);
+            System.out.println("Registros modificados: "+registrosMod);
+
+        //eliminar
+            int usuarioDelete =8; //id usuario
+            int registrosElim = usuarioDAO.eliminar(usuarioDelete);
+            System.out.println("Registros eliminados: "+registrosElim);
     }
+
+
 
 }
