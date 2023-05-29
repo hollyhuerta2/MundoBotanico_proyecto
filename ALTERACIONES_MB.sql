@@ -34,7 +34,18 @@ insert into PLANTA_US values (1,1,5),(2,2,9),(3,3,8),(4,4,3);
 insert into PLANTA_US values(5,6,1);
 
 
-DELETE FROM usuario where id_usuario = 6;
+DELETE FROM usuario where id_usuario = 10;
+
+insert into usuario values(7,'Alicia','pops','alipop@hotmail.com','alipops2');
+insert into usuario values(8,'Ronald','tentacion','roten25@outlook.com','tentaxxion');
+insert into usuario values (9,'baal','raiden','inazuma99@hotmail.com','tuArconte1');
+
+
+--llenado de tabla USUARIOS 
+insert into USUARIO values(1,'Holly','Huerta','holly.cg@outlook.com','Admin'),
+	(2,'Jesús','López','jesusLR@outlook.com','JesusLR'),
+	(3,'Mariana','Prado','mary50@hotmail.com','Mary71'),
+	(4,'Jennifer','Cruz','jennyCC@outlook.com','JennCruz');
 
 
 
