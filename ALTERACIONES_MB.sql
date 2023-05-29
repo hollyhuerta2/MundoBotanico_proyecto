@@ -20,11 +20,21 @@ UPDATE USUARIO
 SET id_usuarioN = 'Mary71'
 WHERE id_usuario= 3;
 
+DROP TABLE planta_us
+create table PLANTA_US(
+	id_planus int primary key,
+	usuariofk int,
+	plantasfk int,
+	FOREIGN KEY (usuariofk)REFERENCES USUARIO(id_usuario)ON DELETE CASCADE,
+	FOREIGN KEY (plantasfk)REFERENCES PLANTAS(id_planta)ON DELETE CASCADE
+);
+--llenado tabla plantas usuarios
+insert into PLANTA_US values (1,1,5),(2,2,9),(3,3,8),(4,4,3);
+
+insert into PLANTA_US values(5,6,1);
 
 
-
-
-
+DELETE FROM usuario where id_usuario = 6;
 
 
 
