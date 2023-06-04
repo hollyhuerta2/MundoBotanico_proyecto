@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: url(../imagen/fondoghibli.jpg);
+}
 #cuadro{
     width: 330px;
     background: darkolivegreen;
@@ -34,7 +37,7 @@
     font-family: fantasy;
 }
 #subtitulo1{
-    padding-left: 80px;
+    padding-left: 107px;
 }
 #subtitulo2{
     padding-left: 80px;
