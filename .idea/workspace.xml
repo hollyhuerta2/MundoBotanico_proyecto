@@ -10,9 +10,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios nuevos DAO">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios nuevos">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Usuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Jsp/Usuario.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -65,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UsuarioMain">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.73">
     <configuration name="ConexionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conexion.ConexionMain" />
       <module name="MundoBotanico_proyecto" />
@@ -209,7 +209,7 @@
       <workItem from="1684714477713" duration="8487000" />
       <workItem from="1685327172473" duration="10334000" />
       <workItem from="1685903735592" duration="3812000" />
-      <workItem from="1685907618296" duration="1395000" />
+      <workItem from="1685907618296" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685908033868</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="New commit! cambios nuevos">
+      <created>1685911298487</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685911298487</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,8 +376,8 @@
     <MESSAGE value="New commit! javaBeans" />
     <MESSAGE value="New commit!" />
     <MESSAGE value="New commit! cambios" />
-    <MESSAGE value="New commit! cambios nuevos" />
     <MESSAGE value="New commit! cambios nuevos DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios nuevos DAO" />
+    <MESSAGE value="New commit! cambios nuevos" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios nuevos" />
   </component>
 </project>
