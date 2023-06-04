@@ -10,8 +10,8 @@ import java.util.List;
 public class UsuarioDAO {
     public static final  String selectSQL ="SELECT *FROM usuario";
     public static final String insertSQL ="INSERT INTO usuario(id_usuario, nombre, apellido, correo, id_usuarioN) VALUES(?,?,?,?,?)";
-    public static final String updateSQL= "UPDATE usuario SET id_usuarioN =? WHERE id_usuario = ?";
-    public static final String deleteSQL= "DELETE FROM usuario WHERE id_usuario = ?";
+    public static final String updateSQL= "UPDATE usuario SET id_usuarioN =? WHERE id_usuarioN = ?";
+    public static final String deleteSQL= "DELETE FROM usuario WHERE id_usuarioN = ?";
 
     public List<Usuario> selecionar() {
         Connection conn = null;
