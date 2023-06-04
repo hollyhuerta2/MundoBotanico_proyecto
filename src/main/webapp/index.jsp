@@ -22,7 +22,7 @@
         <input type="submit" value="Iniciar sesión" id="boton"/>
       </form>
       <br/>
-      <p id="marca">Holly</p>
+      <p id="marca">Welcome</p>
     </div>
 </body>
 </html>

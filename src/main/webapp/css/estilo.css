@@ -27,4 +27,20 @@
     border-radius: 6px;
     background: #1b6a16;
     color: aliceblue;
+    font-size: 15px;
+}
+#titulo{
+    font-size: 30px;
+    font-family: fantasy;
+}
+#subtitulo1{
+    padding-left: 80px;
+}
+#subtitulo2{
+    padding-left: 80px;
+}
+#marca{
+    font-size: 30px;
+    padding-left: 190px;
+    font-weight: 900;
 }
