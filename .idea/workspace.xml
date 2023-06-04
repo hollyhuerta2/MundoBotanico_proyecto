@@ -209,7 +209,7 @@
       <workItem from="1684649417110" duration="3095000" />
       <workItem from="1684714477713" duration="8487000" />
       <workItem from="1685327172473" duration="10334000" />
-      <workItem from="1685903735592" duration="1659000" />
+      <workItem from="1685903735592" duration="3345000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -330,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685904626204</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="New commit! cambios nuevos DAO">
+      <created>1685905657819</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685905657819</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -83,7 +83,7 @@ public class UsuarioDAO {
 
         return registros;
     }
-    public int modificar(Usuario usuario){
+    public String modificar(Usuario usuario){
         Connection conn = null;
         PreparedStatement state = null;
         int registros=0;
@@ -109,7 +109,7 @@ public class UsuarioDAO {
         }catch (Exception e){
             e.printStackTrace();
         }
-        return registros;
+        return String.valueOf(registros);
     }
     public int eliminar(int usuario){
         Connection conn =null;
