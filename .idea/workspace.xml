@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios nuevos DAO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/Main/UsuarioMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/Main/UsuarioMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,7 @@
       <workItem from="1684714477713" duration="8487000" />
       <workItem from="1685327172473" duration="10334000" />
       <workItem from="1685903735592" duration="3812000" />
-      <workItem from="1685907618296" duration="308000" />
+      <workItem from="1685907618296" duration="1395000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685907460937</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="New commit! cambios nuevos DAO">
+      <created>1685908033868</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685908033868</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
