@@ -10,7 +10,7 @@ import java.util.List;
 public class UsuarioDAO {
     public static final  String selectSQL ="SELECT *FROM usuario";
     public static final String insertSQL ="INSERT INTO usuario(id_usuario, nombre, apellido, correo, id_usuarioN) VALUES(?,?,?,?,?)";
-    public static final String updateSQL= "UPDATE usuario SET id_usuarioN =? WHERE id_usuarioN = ?";
+    public static final String updateSQL= "UPDATE usuario SET nombre =?, apellido = ?, correo = ?, id_usuarioN =? WHERE id_usuarioN = ?";
     public static final String deleteSQL= "DELETE FROM usuario WHERE id_usuarioN = ?";
 
     public List<Usuario> selecionar() {
@@ -92,9 +92,11 @@ public class UsuarioDAO {
             conn = Conexion.getConnection();
             state = conn.prepareStatement(updateSQL);
 
-            state.setString(1, usuario.getId_usuarioN());
-            state.setInt(2,usuario.getId_usuario());
-
+            state.setString(1, usuario.getNombre());
+            state.setString(2, usuario.getApellido());
+            state.setString(3, usuario.getCorreo());
+            state.setString(4, usuario.getId_usuarioN());
+            state.setString(5, usuario.getId_usuarioN());
 
             registros = state.executeUpdate();
 

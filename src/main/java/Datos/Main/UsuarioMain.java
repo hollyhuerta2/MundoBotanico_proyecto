@@ -21,8 +21,8 @@ public class UsuarioMain {
         }
         Usuario newUsuario = new Usuario(10,"Sofia","oliv","olivia21@hotmail.com","olivia" );
 
-        int registrosAg = usuarioDAO.agregar(newUsuario);
-        System.out.println("Registro agregado: "+ registrosAg);
+       /* int registrosAg = usuarioDAO.agregar(newUsuario);
+        System.out.println("Registro agregado: "+ registrosAg);*/
 
 
         List<Usuario> usuarioafter = usuarioDAO.selecionar();
@@ -38,15 +38,16 @@ public class UsuarioMain {
             }
 
         //modificar
-        int idUsuarioMod = 6;
-        Usuario usuarioExist = new Usuario(idUsuarioMod,null,null,null,"KuromilovEra7");
+        String idUsuarioNMod = "KuromilovEra7";
+        Usuario usuarioExist = new Usuario();
+
             int registrosMod = usuarioDAO.modificar(usuarioExist);
             System.out.println("Registros modificados: "+registrosMod);
 
-        //eliminar
+        /*//eliminar
             int usuarioDelete =8; //id usuario
             int registrosElim = usuarioDAO.eliminar(usuarioDelete);
-            System.out.println("Registros eliminados: "+registrosElim);
+            System.out.println("Registros eliminados: "+registrosElim);*/
     }
 
 
