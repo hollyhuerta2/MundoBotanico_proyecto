@@ -7,7 +7,7 @@ body{
 }
 #cuadro{
     width: 330px;
-    background: darkolivegreen;
+    background: #1b6a16;
     color: aliceblue;
     margin: auto;
     margin-top: 120px;
@@ -28,19 +28,22 @@ body{
     width: 324px;
     height: 45px;
     border-radius: 6px;
-    background: #1b6a16;
+    background: olivedrab;
     color: aliceblue;
     font-size: 15px;
 }
 #titulo{
     font-size: 30px;
     font-family: fantasy;
+    padding-left: 70px;
 }
 #subtitulo1{
-    padding-left: 107px;
+    padding-left: 110px;
+    font-weight: 900;
 }
 #subtitulo2{
     padding-left: 80px;
+    font-weight: 900;
 }
 #marca{
     font-size: 30px;
