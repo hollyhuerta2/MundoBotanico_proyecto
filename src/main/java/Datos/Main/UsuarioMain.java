@@ -40,8 +40,10 @@ public class UsuarioMain {
         //modificar
         String idUsuarioNMod = "KuromilovEra7";
         Usuario usuarioExist = new Usuario();
+            usuarioExist.setId_usuarioN(idUsuarioNMod);
             usuarioExist.setNombre("Romina");
-            String registrosMod = usuarioDAO.modificar(usuarioExist);
+
+            int registrosMod = usuarioDAO.modificar(usuarioExist);
             System.out.println("Registros modificados: "+registrosMod);
 
         /*//eliminar
