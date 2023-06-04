@@ -42,7 +42,8 @@ public class UsuarioMain {
         Usuario usuarioExist = new Usuario();
             usuarioExist.setId_usuarioN(idUsuarioNMod);
             usuarioExist.setNombre("Romina");
-
+            usuarioExist.setApellido("choco");
+            usuarioExist.setCorreo(" kuromi@hotmail.com");
             int registrosMod = usuarioDAO.modificar(usuarioExist);
             System.out.println("Registros modificados: "+registrosMod);
 
