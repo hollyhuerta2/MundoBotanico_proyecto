@@ -38,12 +38,50 @@
         th, td {
             padding: 20px;
         }
-
+        img{
+            float: right;
+            margin_left:10px;
+            width: 130px;
+            height: 130px;
+        }
 
     </style>
 </head>
 <body>
+    <h1>Tabla usuarios</h1>
+        <img src="imagen/# 𝗳𝗹𝗼𝘄𝗲𝗿𝘀 ✦ _╰_® 𝐰𝐢𝐬𝐞𝐞𝐞𝐫𝐬.jpg" alt="logo">
+    <div class="button">
+        <a href="Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
+    </div>
 
-
+    <table>
+        <thead>
+            <tr>
+                <th>id_usuario</th>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>correo</th>
+                <th>id_usuarioN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%
+                List<Usuario> usuarios = (List<Usuario>) request.getAttribute("usuarios");
+                    if(usuarios !=null){
+                        for(Usuario usuario:usuarios){
+            %>
+            <tr>
+                <td><%=usuario.getId_usuario() %></td>
+                <td><%=usuario.getNombre() %></td>
+                <td><%=usuario.getApellido() %></td>
+                <td><%=usuario.getCorreo() %></td>
+                <td><%=usuario.getId_usuarioN() %></td>
+            </tr>
+               <%
+                        }
+                    }
+            %>
+        </tbody>
+    </table>
 </body>
 </html>
