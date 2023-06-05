@@ -10,10 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios nuevos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios al jsp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +21,8 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -425,7 +422,42 @@
       <option name="project" value="LOCAL" />
       <updated>1685919355252</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="New commit! cambios nuevos">
+      <created>1685924660330</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685924660330</updated>
+    </task>
+    <task id="LOCAL-00031" summary="New commit! cambios nuevos">
+      <created>1685932666702</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685932666702</updated>
+    </task>
+    <task id="LOCAL-00032" summary="New commit! cambios al pom y jsp">
+      <created>1685933374762</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685933374762</updated>
+    </task>
+    <task id="LOCAL-00033" summary="New commit! cambios al pom y jsp">
+      <created>1685936118333</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1685936118333</updated>
+    </task>
+    <task id="LOCAL-00034" summary="New commit! cambios al jsp">
+      <created>1685936147821</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1685936147821</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +470,8 @@
     <MESSAGE value="New commit! cambios" />
     <MESSAGE value="New commit! cambios nuevos DAO" />
     <MESSAGE value="New commit! cambios nuevos" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios nuevos" />
+    <MESSAGE value="New commit! cambios al pom y jsp" />
+    <MESSAGE value="New commit! cambios al jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios al jsp" />
   </component>
 </project>
