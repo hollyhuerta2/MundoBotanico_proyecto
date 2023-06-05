@@ -14,15 +14,15 @@ public class SvUsuarios extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        List<Usuario> usuario = new UsuarioDAO().selecionar();
-        System.out.println("Usuarios"+usuario);
-        request.setAttribute("usuarios",usuario);
-        request.getRequestDispatcher("Usuario.jsp").forward(request,response);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-
+        try {
+            UsuarioDAO usuarioDAO = new UsuarioDAO();
+            List<Usuario> usuario = new UsuarioDAO().selecionar();
+            System.out.println("Usuarios" + usuario);
+            request.setAttribute("usuarios", usuario);
+            request.getRequestDispatcher("Jsp/Usuario.jsp").forward(request, response);
+        }catch (Exception e){
+            e.printStackTrace();
+            System.out.println("ha ocurrido un error al cargar la lista de Usuarios");
+        }
     }
 }
