@@ -11,13 +11,12 @@
     <style>
         body {
             background-color: darkolivegreen;
-            color: aliceblue;
         }
         table{
             table-layout: fixed;
             width: 100%;
             border-collapse: collapse;
-            border: 3px solid purple;
+            border: 3px solid darkslategray;
         }
         thead th:nth-child(1) {
             width: 30%;
@@ -42,13 +41,13 @@
             background-color: darkolivegreen;
         }
         .imagen-redonda{
-            width: 130px;
-            height: 130px;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
             overflow: hidden;
         }
         .imagen-redonda img{
-            float: right;
+            float: left;
             margin-left:10px;
             width: 100%;
             height: 100%;
