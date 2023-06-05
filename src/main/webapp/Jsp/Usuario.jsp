@@ -38,18 +38,30 @@
         th, td {
             padding: 20px;
         }
-        img{
-            float: right;
-            margin_right:10px;
+        th{
+            background-color: darkolivegreen;
+        }
+        .imagen-redonda{
             width: 130px;
             height: 130px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .imagen-redonda img{
+            float: right;
+            margin-left:10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
     </style>
 </head>
 <body>
+<div class="imagen-redonda">
+    <img src="../imagen/cinnaicon.jpg" alt="logo">
+</div>
     <h1>Tabla usuarios</h1>
-        <img src="imagen/" alt="logo">
     <div class="button">
         <a href="Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
     </div>
