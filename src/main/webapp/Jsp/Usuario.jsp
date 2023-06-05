@@ -40,7 +40,7 @@
         }
         img{
             float: right;
-            margin_left:10px;
+            margin_right:10px;
             width: 130px;
             height: 130px;
         }
@@ -49,7 +49,7 @@
 </head>
 <body>
     <h1>Tabla usuarios</h1>
-        <img src="imagen/# 𝗳𝗹𝗼𝘄𝗲𝗿𝘀 ✦ _╰_® 𝐰𝐢𝐬𝐞𝐞𝐞𝐫𝐬.jpg" alt="logo">
+        <img src="imagen/" alt="logo">
     <div class="button">
         <a href="Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
     </div>
@@ -66,6 +66,7 @@
         </thead>
         <tbody>
             <%
+                @SuppressWarnings("unchecked")
                 List<Usuario> usuarios = (List<Usuario>) request.getAttribute("usuarios");
                     if(usuarios !=null){
                         for(Usuario usuario:usuarios){
