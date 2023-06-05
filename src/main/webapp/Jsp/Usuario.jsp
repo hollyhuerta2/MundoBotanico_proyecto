@@ -9,7 +9,7 @@
 <head>
     <title>Usuario Mundo Bótanico</title>
     <style>
-        body{
+        body {
             background-color: darkolivegreen;
             color: aliceblue;
         }
