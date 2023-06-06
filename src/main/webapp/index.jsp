@@ -4,17 +4,17 @@
 <head>
     <title>Mundo Bótanico</title>
     <link href="css/estilo.css" rel="stylesheet" type="text/css">
-    <script>
+   <%-- <script>
         function iniciarSesion(){
             var form = document.getElementById("formulario");
             form.action = "/SvUsuarios";
             form.submit();
         }
-    </script>
+    </script>--%>
 </head>
 <body>
     <div id="cuadro">
-      <form id="formulario" method="post">
+      <form action="SvUsuarios" method="post">
         <p id="titulo">INICIAR SESIÓN</p>
         <hr>
         <br/><br/>
@@ -26,7 +26,7 @@
         <br/><br/>
         <input type="text" class="entrada" name="nombreUsuario"/>
         <br/><br/>
-          <input type="button" value="Iniciar sesión" id="boton" onclick="iniciarSesion()"/>
+          <input type="submit" value="Iniciar sesión" id="boton"/>
           <input type="reset"/>
 
       </form>

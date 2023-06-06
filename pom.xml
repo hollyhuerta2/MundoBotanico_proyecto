@@ -57,11 +57,11 @@
   <build>
     <finalName>MundoBotanico_proyecto</finalName>
     <plugins>
-      <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+
       <plugin>
-        <groupId>org.apache.tomcat</groupId>
-        <artifactId>tomcat-catalina</artifactId>
-        <version>7.0.99</version>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
       </plugin>
     </plugins>
   </build>

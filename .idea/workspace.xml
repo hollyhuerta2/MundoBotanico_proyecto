@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios jsp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
       <recent name="C:\Users\holly\MundoBotanico_proyecto\src\main\webapp\imagen" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.73">
+  <component name="RunManager" selected="Maven.MundoBotanico_proyecto [tomcat7:run]">
     <configuration name="ConexionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conexion.ConexionMain" />
       <module name="MundoBotanico_proyecto" />
@@ -106,6 +106,31 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="MundoBotanico_proyecto [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../Program Files/Java/jdk-17.0.3.1" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -200,6 +225,12 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConexionMain" />
+      <item itemvalue="Application.UsuarioMain" />
+      <item itemvalue="Maven.MundoBotanico_proyecto [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.73" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.UsuarioMain" />
@@ -225,14 +256,7 @@
       <workItem from="1685327172473" duration="10334000" />
       <workItem from="1685903735592" duration="3812000" />
       <workItem from="1685907618296" duration="1793000" />
-      <workItem from="1686013350966" duration="14696000" />
-    </task>
-    <task id="LOCAL-00002" summary="New commit! javaBean">
-      <created>1683421780013</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683421780013</updated>
+      <workItem from="1686013350966" duration="21087000" />
     </task>
     <task id="LOCAL-00003" summary="New commit! javaBean">
       <created>1683422376942</created>
@@ -570,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686034248928</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="New commit! cambios jsp">
+      <created>1686038243280</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1686038243280</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
