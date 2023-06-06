@@ -61,16 +61,20 @@ public class SvUsuarios extends HttpServlet {
         if(user !=null ){
             if(user.getId_usuarioN().equals("Admin")){
                 sesion = request.getSession();
-                sesion.setAttribute("Usuario", user);
+                sesion.setAttribute("Usuario Admin", user);
                 request.setAttribute("msj","Bienvenido a MB");
                 this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
 
+            }else if(user !=null){
+                sesion = request.getSession();
+                sesion.setAttribute("Usuario ",user);
+                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
+               // response.sendRedirect("?????????");
             }else{
-                response.sendRedirect("?????????");
+                request.setAttribute("msj","Credenciales incorrectas");
+                request.getRequestDispatcher("?????????").forward(request,response);
             }
         }
-
-
     }
     private void cerrarsesion(HttpServletRequest request, HttpServletResponse response)
             throws Exception{
