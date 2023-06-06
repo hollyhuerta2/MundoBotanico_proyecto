@@ -11,6 +11,32 @@ import java.util.*;
 
 @WebServlet(name = "SvUsuarios", value = "/SvUsuarios")
 public class SvUsuarios extends HttpServlet {
+
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException{
+        response.setContentType("text/html;charset=UTF-8");
+        String accion = request.getParameter("accion");
+        try{
+            if(accion !=null){
+                switch (accion){
+                    case "verificar":
+                        verificar(request,response);
+                        break;
+                    case "cerrar":
+                        cerrarsesion(request, response);
+                    default:
+                        response.sendRedirect("index.jsp");
+                }
+            }
+        } catch (Exception e) {
+            try {
+                this.getServletConfig().getServletContext().getRequestDispatcher("/mensaje.jsp").forward(request, response);
+
+            } catch (Exception ex) {
+                System.out.println("Error" + e.getMessage());
+            }
+        }
+    }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
