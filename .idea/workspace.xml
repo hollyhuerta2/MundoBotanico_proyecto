@@ -10,7 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios">
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios servlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
     </list>
@@ -224,7 +224,7 @@
       <workItem from="1685327172473" duration="10334000" />
       <workItem from="1685903735592" duration="3812000" />
       <workItem from="1685907618296" duration="1793000" />
-      <workItem from="1686013350966" duration="4399000" />
+      <workItem from="1686013350966" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -527,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686017749069</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="New commit! cambios servlet">
+      <created>1686018448063</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686018448063</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,6 +549,7 @@
     <MESSAGE value="New commit! cambios al pom y jsp" />
     <MESSAGE value="New commit! cambios al jsp" />
     <MESSAGE value="New commit! cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios" />
+    <MESSAGE value="New commit! cambios servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios servlet" />
   </component>
 </project>

@@ -40,15 +40,47 @@ public class SvUsuarios extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        try {
-            UsuarioDAO usuarioDAO = new UsuarioDAO();
-            List<Usuario> usuario = new UsuarioDAO().selecionar();
-            System.out.println("Usuarios" + usuario);
-            request.setAttribute("usuarios", usuario);
-            request.getRequestDispatcher("Jsp/Usuario.jsp").forward(request, response);
-        }catch (Exception e){
-            e.printStackTrace();
-            System.out.println("ha ocurrido un error al cargar la lista de Usuarios");
+        processRequest(request, response);
+    }
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        processRequest(request, response);
+    }
+    public String getServletInfo(){
+        return "short description";
+    }
+    //para la sesion
+    private void verificar(HttpServletRequest request, HttpServletResponse response)
+            throws Exception{
+        HttpSession sesion;
+        UsuarioDAO daoUsu;
+        Usuario user;
+        user = this.obtenerUsuario(request);
+        daoUsu = new UsuarioDAO();
+        user = daoUsu.identificar(user);
+        if(user !=null ){
+            if(user.getId_usuarioN().equals("Admin")){
+                sesion = request.getSession();
+                sesion.setAttribute("Usuario", user);
+                request.setAttribute("msj","Bienvenido a MB");
+                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
+
+            }else{
+                response.sendRedirect("?????????");
+            }
         }
+
+
+    }
+    private void cerrarsesion(HttpServletRequest request, HttpServletResponse response)
+            throws Exception{
+
+    }
+    private Usuario obtenerUsuario(HttpServletRequest request){
+            Usuario uss = new Usuario();
+            uss.setNombre(request.getParameter("txtNameUser"));
+            uss.setId_usuarioN(request.getParameter("txtUser"));
+
+        return uss;
     }
 }
