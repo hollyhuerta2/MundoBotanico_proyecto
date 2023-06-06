@@ -65,19 +65,23 @@ public class SvUsuarios extends HttpServlet {
                 request.setAttribute("msj","Bienvenido a MB");
                 this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
 
-            }else if(user !=null){
+            }else{
                 sesion = request.getSession();
                 sesion.setAttribute("Usuario ",user);
                 this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
                // response.sendRedirect("?????????");
-            }else{
-                request.setAttribute("msj","Credenciales incorrectas");
-                request.getRequestDispatcher("?????????").forward(request,response);
             }
+        }else{
+            request.setAttribute("msj","Credenciales incorrectas");
+            request.getRequestDispatcher("?????????").forward(request,response);
         }
     }
     private void cerrarsesion(HttpServletRequest request, HttpServletResponse response)
             throws Exception{
+        HttpSession session = request.getSession();
+        session.setAttribute("Usuario", null);
+        session.invalidate();
+        response.sendRedirect("?????");
 
     }
     private Usuario obtenerUsuario(HttpServletRequest request){
