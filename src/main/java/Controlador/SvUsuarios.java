@@ -27,6 +27,8 @@ public class SvUsuarios extends HttpServlet {
                     default:
                         response.sendRedirect("index.jsp");
                 }
+            }else {
+                response.sendRedirect("index.jsp");
             }
         } catch (Exception e) {
             try {
@@ -63,17 +65,17 @@ public class SvUsuarios extends HttpServlet {
                 sesion = request.getSession();
                 sesion.setAttribute("Usuario Admin", user);
                 request.setAttribute("msj","Bienvenido a MB");
-                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
+                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp/Usuario.jsp").forward(request,response);
 
             }else{
                 sesion = request.getSession();
-                sesion.setAttribute("Usuario ",user);
-                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp??????").forward(request,response);
+                sesion.setAttribute("Usuario ",user);//acá debo cambiarlo, pero para las pruebas tengo que checar
+                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp/Usuario.jsp").forward(request,response);
                // response.sendRedirect("?????????");
             }
         }else{
             request.setAttribute("msj","Credenciales incorrectas");
-            request.getRequestDispatcher("?????????").forward(request,response);
+            request.getRequestDispatcher("index.jsp").forward(request,response);
         }
     }
     private void cerrarsesion(HttpServletRequest request, HttpServletResponse response)
@@ -81,7 +83,7 @@ public class SvUsuarios extends HttpServlet {
         HttpSession session = request.getSession();
         session.setAttribute("Usuario", null);
         session.invalidate();
-        response.sendRedirect("?????");
+        response.sendRedirect("index.jsp");
 
     }
     private Usuario obtenerUsuario(HttpServletRequest request){
