@@ -24,8 +24,10 @@ public class SvUsuarios extends HttpServlet {
                         break;
                     case "cerrar":
                         cerrarsesion(request, response);
+                        break;
                     default:
                         response.sendRedirect("index.jsp");
+                        break;
                 }
             }else {
                 response.sendRedirect("index.jsp");
@@ -49,7 +51,7 @@ public class SvUsuarios extends HttpServlet {
         processRequest(request, response);
     }
     public String getServletInfo(){
-        return "short description";
+        return "gestionar usuarios";
     }
     //para la sesion
     private void verificar(HttpServletRequest request, HttpServletResponse response)
@@ -57,20 +59,22 @@ public class SvUsuarios extends HttpServlet {
         HttpSession sesion;
         UsuarioDAO daoUsu;
         Usuario user;
+
         user = this.obtenerUsuario(request);
         daoUsu = new UsuarioDAO();
         user = daoUsu.identificar(user);
+
         if(user !=null ){
             if(user.getId_usuarioN().equals("Admin")){
                 sesion = request.getSession();
                 sesion.setAttribute("Usuario Admin", user);
                 request.setAttribute("msj","Bienvenido a MB");
-                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp/Usuario.jsp").forward(request,response);
+                this.getServletConfig().getServletContext().getRequestDispatcher("../Jsp/Usuario.jsp").forward(request,response);
 
             }else{
                 sesion = request.getSession();
                 sesion.setAttribute("Usuario ",user);//acá debo cambiarlo, pero para las pruebas tengo que checar
-                this.getServletConfig().getServletContext().getRequestDispatcher("/Jsp/Usuario.jsp").forward(request,response);
+                this.getServletConfig().getServletContext().getRequestDispatcher("../Jsp/Usuario.jsp").forward(request,response);
                // response.sendRedirect("?????????");
             }
         }else{
