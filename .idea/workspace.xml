@@ -10,8 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios servlet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios jsp">
       <change beforePath="$PROJECT_DIR$/src/main/webapp/mensaje.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mensaje.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +223,7 @@
       <workItem from="1685327172473" duration="10334000" />
       <workItem from="1685903735592" duration="3812000" />
       <workItem from="1685907618296" duration="1793000" />
-      <workItem from="1686013350966" duration="9949000" />
+      <workItem from="1686013350966" duration="10831000" />
     </task>
     <task id="LOCAL-00001" summary="New commit!">
       <created>1682813249703</created>
@@ -562,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686024740243</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="New commit! cambios jsp">
+      <created>1686025554163</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1686025554163</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,6 +584,7 @@
     <MESSAGE value="New commit! cambios al jsp" />
     <MESSAGE value="New commit! cambios" />
     <MESSAGE value="New commit! cambios servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios servlet" />
+    <MESSAGE value="New commit! cambios jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios jsp" />
   </component>
 </project>
