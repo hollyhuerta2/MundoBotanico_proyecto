@@ -133,4 +133,41 @@ public class UsuarioDAO {
         }
         return registros;
     }
+    public Usuario identificar(Usuario user)throws Exception{
+        Connection conn = null;
+        Statement state = null;
+        ResultSet rs = null;
+        Usuario usu= null;
+        String sql = "SELECT nombre, id_usuarioN FROM USUARIO WHERE id_usuarioN= ?";
+        try{
+            conn = Conexion.getConnection();
+            state = conn.createStatement();
+            rs= state.executeQuery(sql);
+            if(rs.next()){
+                usu = new Usuario();
+                usu.setNombre(rs.getString("nombre"));
+                usu.setId_usuarioN(rs.getString("id_usuarioN"));
+                usu = new Usuario();
+            }
+        }catch(Exception e){
+            System.out.println("Error" + e.getMessage());
+        }finally{
+            if (rs !=null && rs.isClosed() == false){
+                rs.close();
+            }
+            rs = null;
+            if(state!= null && state.isClosed() == false){
+                state.close();
+
+            }
+            state = null;
+            if(conn != null & conn.isClosed() == false){
+                conn.close();
+
+            }
+            conn = null;
+        }
+        return usu;
+
+    }
 }
