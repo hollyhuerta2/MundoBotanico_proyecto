@@ -10,10 +10,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios jsp">
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mensaje.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mensaje.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,14 +259,9 @@
       <workItem from="1685327172473" duration="10334000" />
       <workItem from="1685903735592" duration="3812000" />
       <workItem from="1685907618296" duration="1793000" />
-      <workItem from="1686013350966" duration="21087000" />
-    </task>
-    <task id="LOCAL-00003" summary="New commit! javaBean">
-      <created>1683422376942</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1683422376942</updated>
+      <workItem from="1686013350966" duration="21969000" />
+      <workItem from="1686091363512" duration="3376000" />
+      <workItem from="1686117164604" duration="4023000" />
     </task>
     <task id="LOCAL-00004" summary="New commit! javaBeans">
       <created>1683422845226</created>
@@ -601,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686038243280</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="New commit! cambios">
+      <created>1686044876502</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1686044876503</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,9 +620,9 @@
     <MESSAGE value="New commit! cambios nuevos" />
     <MESSAGE value="New commit! cambios al pom y jsp" />
     <MESSAGE value="New commit! cambios al jsp" />
-    <MESSAGE value="New commit! cambios" />
     <MESSAGE value="New commit! cambios servlet" />
     <MESSAGE value="New commit! cambios jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios jsp" />
+    <MESSAGE value="New commit! cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios" />
   </component>
 </project>

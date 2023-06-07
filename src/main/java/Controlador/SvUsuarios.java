@@ -12,9 +12,13 @@ import java.util.*;
 @WebServlet(name = "SvUsuarios", value = "/SvUsuarios")
 public class SvUsuarios extends HttpServlet {
 
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-    throws ServletException, IOException{
-        response.setContentType("text/html;charset=UTF-8");
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+       // processRequest(request, response);
+    }
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         String accion = request.getParameter("accion");
         try{
             if(accion !=null){
@@ -40,18 +44,6 @@ public class SvUsuarios extends HttpServlet {
                 System.out.println("Error" + e.getMessage());
             }
         }
-    }
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
-    }
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
-    }
-    public String getServletInfo(){
-        return "gestionar usuarios";
     }
     //para la sesion
     private void verificar(HttpServletRequest request, HttpServletResponse response)

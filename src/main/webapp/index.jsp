@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="cuadro">
-      <form action="SvUsuarios" method="post">
+      <form action="SvSesionLogin" method="post">
         <p id="titulo">INICIAR SESIÓN</p>
         <hr>
         <br/><br/>
@@ -24,7 +24,7 @@
         <br/><br/>
         <label id="subtitulo2">NOMBRE USUARIO</label>
         <br/><br/>
-        <input type="text" class="entrada" name="nombreUsuario"/>
+        <input type="text" class="entrada" name="nombre usuario"/>
         <br/><br/>
           <input type="submit" value="Iniciar sesión" id="boton"/>
           <input type="reset"/>

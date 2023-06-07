@@ -18,8 +18,9 @@
 </head>
 <body>
 <div class ="container">
-<h1>¡Ups! El servidor no está disponible</h1>
-<p>Lo sentimos, el servidor no se encuentra disponible en este momento.</p>
+<h1>¡Ups! El Usuario que intento iniciar no es válido</h1>
+    <img src="./imagen/kuromisad.jpg" alt="imagen">
+<p>Lo sentimos, por favor inténtalo de nuevo dirigiéndote al siguiente botón</p>
 <button onclick="redirectToIndex()">Ir a la página de inicio</button>
 </div>
 
