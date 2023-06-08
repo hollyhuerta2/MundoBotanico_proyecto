@@ -22,12 +22,12 @@
     <h2>Sale cada año bisiesto</h2>
     <img src="./imagen/Wandafeliz.gif" alt="Gif-Wanda">
     <p>para salir dirígete al botón siguiente</p>
-    <button onclick="redirectToIndex()">Salir</button>
+    <button onclick="redirectToServlet()">Salir</button>
 </div>
 
 <script type="text/javascript">
-    function redirectToIndex() {
-        location.href = "./Jsp/Admin.jsp";
+    function redirectToServlet() {
+        location.href = "./SvlistarUs"; /*al fin me salió*/
     }
 </script>
 
