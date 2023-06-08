@@ -18,9 +18,9 @@
 </head>
 <body>
 <div class ="container">
-    <h1>Página de éxito</h1>
+    <h1>¡Página de éxito!</h1>
     <h2>Sale cada año bisiesto</h2>
-    <img src="./imagen/kuromisad.jpg" alt="imagen">
+    <img src="./imagen/Wandafeliz.gif" alt="Gif-Wanda">
     <p>para salir dirígete al botón siguiente</p>
     <button onclick="redirectToIndex()">Salir</button>
 </div>
