@@ -45,7 +45,7 @@ public class UsuarioDAO {
 
         return usuarios;
     }
-    public void agregar(Usuario usuario) throws ClassNotFoundException{
+    public void agregar(Usuario usuario) {
         Connection conn = null;
         PreparedStatement state = null;
         try{
