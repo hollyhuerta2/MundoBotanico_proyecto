@@ -22,7 +22,7 @@ public class SvSesionLogin extends HttpServlet {
             request.getRequestDispatcher("./Jsp/Usuario.jsp").forward(request,response);
         }else if(!"Admin".equals(User2)) {
             request.setAttribute("user",User2);
-            request.getRequestDispatcher("./UsuarioNormal.jsp").forward(request,response);
+            request.getRequestDispatcher("../UsuarioNormal.jsp").forward(request,response);
         }else{
             request.setAttribute("Error","Usuario desconocido, intente de nuevo");
             request.getRequestDispatcher("./mensaje.jsp").forward(request,response);

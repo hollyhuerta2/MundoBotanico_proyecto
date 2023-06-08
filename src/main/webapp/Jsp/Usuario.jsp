@@ -84,12 +84,12 @@
 <body>
 <header>
     <div class="imagen-redonda">
-        <img src="../imagen/cinnaicon.jpg" alt="logo">
+        <img src="./imagen/cinnaicon.jpg" alt="logo">
     </div>
 </header>
     <h1>Tabla usuarios</h1>
     <div class="button-container">
-        <a href="Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
+        <a href="./registroUsuario.jsp" class="button">REGISTRAR</a>
     </div>
 
     <table>

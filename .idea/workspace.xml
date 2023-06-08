@@ -10,13 +10,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios muchos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SVRegistroU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SVRegistroU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mensaje.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mensaje.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Usuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Usuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/registroUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/registroUsuario.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,14 +262,8 @@
       <workItem from="1685907618296" duration="1793000" />
       <workItem from="1686013350966" duration="21969000" />
       <workItem from="1686091363512" duration="3376000" />
-      <workItem from="1686117164604" duration="4023000" />
-    </task>
-    <task id="LOCAL-00004" summary="New commit! javaBeans">
-      <created>1683422845226</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1683422845226</updated>
+      <workItem from="1686117164604" duration="4925000" />
+      <workItem from="1686178794615" duration="5083000" />
     </task>
     <task id="LOCAL-00005" summary="New commit! javaBeans">
       <created>1683423106793</created>
@@ -606,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686044876503</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="New commit! cambios muchos">
+      <created>1686121623961</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1686121623961</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,6 +625,7 @@
     <MESSAGE value="New commit! cambios servlet" />
     <MESSAGE value="New commit! cambios jsp" />
     <MESSAGE value="New commit! cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios" />
+    <MESSAGE value="New commit! cambios muchos" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios muchos" />
   </component>
 </project>

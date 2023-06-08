@@ -54,7 +54,7 @@ public class UsuarioDAO {
         }
         return usuarios;
     }
-    public int agregar(Usuario usuario){
+    public static int agregar(Usuario usuario){
         Connection conn = null;
         PreparedStatement state = null;
         int registros=0;

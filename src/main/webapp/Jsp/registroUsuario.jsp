@@ -8,7 +8,7 @@
 <body>
     <h1>Registrar usuario</h1>
 
-    <form action="../controlador/SVRegistroU" method="post">
+    <form action="SVRegistroU" method="post">
         <label for="id_usuario">id_usuario: </label>
         <input type="number" name="id_usuario" id="id_usuario" required>
         <br>
