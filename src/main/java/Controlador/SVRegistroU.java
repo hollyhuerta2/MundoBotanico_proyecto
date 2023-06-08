@@ -31,7 +31,7 @@ public class SVRegistroU extends HttpServlet {
 
                 UsuarioDAO usDao = new UsuarioDAO();
                 usDao.agregar(user);
-                response.sendRedirect("./Jsp/Admin.jsp");
+                response.sendRedirect("./mensajeExitoAdmin.jsp");
             }catch (Exception e){
                 e.printStackTrace();
                 request.setAttribute("msj","Error!");

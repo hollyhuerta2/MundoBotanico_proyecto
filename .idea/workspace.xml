@@ -10,7 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios us" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios admin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SVRegistroU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SVRegistroU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mensajeExitoAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mensajeExitoAdmin.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,14 +259,7 @@
       <workItem from="1686013350966" duration="21969000" />
       <workItem from="1686091363512" duration="3376000" />
       <workItem from="1686117164604" duration="4925000" />
-      <workItem from="1686178794615" duration="24359000" />
-    </task>
-    <task id="LOCAL-00009" summary="New commit! cambios nuevos">
-      <created>1684047780213</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1684047780213</updated>
+      <workItem from="1686178794615" duration="25067000" />
     </task>
     <task id="LOCAL-00010" summary="New commit! cambios nuevos">
       <created>1684649786860</created>
@@ -600,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686211355841</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="New commit! cambios admin">
+      <created>1686211895876</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1686211895876</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,6 +624,7 @@
     <MESSAGE value="New commit! cambios muchos" />
     <MESSAGE value="New commit! cambios muchos +" />
     <MESSAGE value="New commit! cambios us" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios us" />
+    <MESSAGE value="New commit! cambios admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios admin" />
   </component>
 </project>

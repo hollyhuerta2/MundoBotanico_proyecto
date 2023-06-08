@@ -27,7 +27,7 @@
 
 <script type="text/javascript">
     function redirectToIndex() {
-        location.href = "Admin.jsp";
+        location.href = "./Jsp/Admin.jsp";
     }
 </script>
 
