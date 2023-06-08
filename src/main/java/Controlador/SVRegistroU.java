@@ -10,35 +10,32 @@ import java.io.IOException;
 
 @WebServlet(name = "SVRegistroU", value = "/SVRegistroU")
 public class SVRegistroU extends HttpServlet {
-
-
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+            try {
+                int id_usuario = Integer.parseInt(request.getParameter("id_usuario"));
+                String nombre = request.getParameter("nombre");
+                String apellido = request.getParameter("apellido");
+                String correo = request.getParameter("correo");
+                String id_usuarioN = request.getParameter("id_usuarioN");
 
-            int id_usuario = Integer.parseInt(request.getParameter("id_usuario"));
-            String nombre = request.getParameter("nombre");
-            String apellido = request.getParameter("apellido");
-            String correo = request.getParameter("correo");
-            String id_usuarioN = request.getParameter("id_usuarioN");
-
-            Usuario user = new Usuario();
+            /*Usuario user = new Usuario();
             user.setId_usuario(id_usuario);
             user.setNombre(nombre);
             user.setApellido(apellido);
             user.setCorreo(correo);
-            user.setId_usuarioN(id_usuarioN);
+            user.setId_usuarioN(id_usuarioN);*/
 
-            UsuarioDAO usDao = new UsuarioDAO();
-            int registros = UsuarioDAO.agregar(user);
+                Usuario user = new Usuario(id_usuario, nombre, apellido, correo, id_usuarioN);
 
-        if(registros >0){
-            request.setAttribute("msj","Usuario agregado exitosamente");
-            response.sendRedirect("../Usuario.jsp");
-        }else{
-            request.setAttribute("msj","ha ocurrido un error!");
-            request.getRequestDispatcher("error.jsp").forward(request,response);
-        }
+                UsuarioDAO usDao = new UsuarioDAO();
+                usDao.agregar(user);
+                response.sendRedirect("Jsp/Usuarios.jsp");
+            }catch (Exception e){
+                e.printStackTrace();
+                request.setAttribute("msj","Error!");
+                request.getRequestDispatcher("error.jsp").forward(request,response);
+            }
     }
 }

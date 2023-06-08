@@ -19,10 +19,10 @@ public class SvSesionLogin extends HttpServlet {
 
         if("Holly".equals(nameUser)&& "Admin".equals(User2)){
             request.setAttribute("usuario",nameUser);
-            request.getRequestDispatcher("./Jsp/Usuario.jsp").forward(request,response);
+            request.getRequestDispatcher("./Jsp/Admin.jsp").forward(request,response);
         }else if(!"Admin".equals(User2)) {
             request.setAttribute("user",User2);
-            request.getRequestDispatcher("../UsuarioNormal.jsp").forward(request,response);
+            request.getRequestDispatcher("./Jsp/UsuarioNormal.jsp").forward(request,response);
         }else{
             request.setAttribute("Error","Usuario desconocido, intente de nuevo");
             request.getRequestDispatcher("./mensaje.jsp").forward(request,response);

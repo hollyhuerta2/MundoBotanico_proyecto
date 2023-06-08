@@ -8,22 +8,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UsuarioDAO {
-    public static final  String selectSQL ="SELECT *FROM usuario";
     public static final String insertSQL ="INSERT INTO usuario(id_usuario, nombre, apellido, correo, id_usuarioN) VALUES(?,?,?,?,?)";
     public static final String updateSQL= "UPDATE usuario SET nombre =?, apellido = ?, correo = ?, id_usuarioN =? WHERE id_usuarioN = ?";
     public static final String deleteSQL= "DELETE FROM usuario WHERE id_usuarioN = ?";
 
     public List<Usuario> selecionar() {
         Connection conn = null;
-        Statement state = null;
-        ResultSet result = null;
-        Usuario usuario = null;
+       PreparedStatement state =null;
+       ResultSet result =null;
 
         List<Usuario> usuarios = new ArrayList<>();
+
         try {
             conn = Conexion.getConnection();
-            state = conn.createStatement();
-            result = state.executeQuery(selectSQL);
+            state = conn.prepareStatement("SELECT *FROM usuario");
+            result = state.executeQuery();
 
             while (result.next()) {
                 int id_usuario = result.getInt("id_usuario");
@@ -32,33 +31,23 @@ public class UsuarioDAO {
                 String correo = result.getString("correo");
                 String id_usuarioN = result.getString("id_usuarioN");
 
-                usuario = new Usuario(id_usuario, nombre, apellido, correo, id_usuarioN);
+                Usuario usuario = new Usuario(id_usuario,nombre,apellido,correo,id_usuarioN);
                 usuarios.add(usuario);
-
-            }
-            Conexion.close(result);
-            Conexion.close((ResultSet) state);
-            Conexion.close(conn);
-
-            for (Usuario usuar : usuarios) {
-                System.out.println("Id_usuario: " + usuar.getId_usuario());
-                System.out.println("Nombre: " + usuar.getNombre());
-                System.out.println("apellido: " + usuar.getApellido());
-                System.out.println("correo: " + usuar.getCorreo());
-                System.out.println("nombre de usuario: " + usuar.getId_usuarioN());
-                System.out.println("\n");
             }
 
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            Conexion.close(result);
+            Conexion.close(state);
+            Conexion.close(conn);
         }
+
         return usuarios;
     }
-    public static int agregar(Usuario usuario){
+    public void agregar(Usuario usuario) throws ClassNotFoundException{
         Connection conn = null;
         PreparedStatement state = null;
-        int registros=0;
-
         try{
             conn = Conexion.getConnection();
             state = conn.prepareStatement(insertSQL);
@@ -69,19 +58,18 @@ public class UsuarioDAO {
             state.setString(4, usuario.getCorreo());
             state.setString(5, usuario.getId_usuarioN());
 
-                registros = state.executeUpdate();
-                if(registros>0)
-                    System.out.println("El Registro se ha guardado correctamente! ");
+                state.executeUpdate();
+               /* if(registros>0)
+                    System.out.println("El Registro se ha guardado correctamente! ");*/
 
-                Conexion.close(state);
-                Conexion.close(conn);
-                Usuario usuario1 = new Usuario();
+               // Usuario usuario1 = new Usuario();
 
         }catch (Exception e){
             e.printStackTrace();
+        }finally {
+            Conexion.close(state);
+            Conexion.close(conn);
         }
-
-        return registros;
     }
     public int modificar(Usuario usuario){
         Connection conn = null;
