@@ -33,11 +33,10 @@
   </div>
 </header>
 <h1>Tabla de Plantas de Usuarios</h1>
-<%--  <div class="button-container">
-       <a href="./Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
-       <a href="./Jsp/EliminarUs.jsp" class="button">ELIMINAR</a>
-       <a href="./Jsp/BuscarUs.jsp" class="button">MODIFICAR</a>
-  </div>--%>
+      <div class="button-container">
+       <a href="./Jsp2/AgregarPlanus.jsp" class="button">REGISTRAR</a>
+<%--       <a href="./Jsp/BuscarUs.jsp" class="button">MODIFICAR</a>--%>
+  </div>
       <table>
         <tr>
            <th>id_planus</th>

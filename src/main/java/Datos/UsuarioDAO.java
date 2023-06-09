@@ -21,7 +21,7 @@ public class UsuarioDAO {
 
         try {
             conn = Conexion.getConnection();
-            state = conn.prepareStatement("SELECT *FROM usuario");
+            state = conn.prepareStatement("SELECT *FROM usuario ORDER BY id_usuario ASC;");
             result = state.executeQuery();
 
             while (result.next()) {
