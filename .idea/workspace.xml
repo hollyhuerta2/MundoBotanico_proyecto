@@ -11,14 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador2/SvListarZona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador2/SvTipoPlanta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Familias.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/TipoPlantas.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Zonas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador2/SvCuidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador2/SvHoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador2/SvUsPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/CuidadosPlan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/PlanUsu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/TipoHojas.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,14 +267,7 @@
       <workItem from="1686117164604" duration="4925000" />
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
-      <workItem from="1686329360315" duration="15089000" />
-    </task>
-    <task id="LOCAL-00022" summary="New commit! cambios nuevos">
-      <created>1685911298487</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1685911298487</updated>
+      <workItem from="1686329360315" duration="17914000" />
     </task>
     <task id="LOCAL-00023" summary="New commit! cambios nuevos">
       <created>1685914638132</created>
@@ -612,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686340122555</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="New commit!">
+      <created>1686348511545</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1686348511545</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -83,6 +83,9 @@
             <li><a href="SvListarFamilia">Familia</a> </li>
             <li><a href="SvListarZona">Zona plantas</a> </li>
             <li><a href="SvTipoPlanta">Tipos de Plantas</a> </li>
+            <li><a href="SvCuidados">Cuidado de Plantas</a> </li>
+            <li><a href="SvHoja">Tipo de Hojas</a> </li>
+            <li><a href="SvUsPlan">Usuarios-plantas</a> </li>
         </ul>
 
 </body>
