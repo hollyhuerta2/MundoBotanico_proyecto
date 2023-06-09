@@ -24,7 +24,7 @@ public class SvModificarUs extends HttpServlet {
         try {
             Usuario usuario = usDao.identificar(id_usuarioN);
             request.setAttribute("usuario", usuario);
-            request.getRequestDispatcher("editarUsuario.jsp").forward(request,response);//cambiar ruta después de hacer el jsp
+            request.getRequestDispatcher("./Jsp/EditarUs.jsp").forward(request,response);//cambiar ruta después de hacer el jsp
         } catch (Exception e) {
             e.printStackTrace();
         }
