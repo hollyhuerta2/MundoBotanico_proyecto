@@ -18,6 +18,7 @@
             font-size: x-large;
             font-style: normal;
             font-weight: 900;
+            text-decoration: none;
         }
         .menu-vertical li {
             display: block;
@@ -79,6 +80,9 @@
         <ul class="menu-vertical">
             <li> <a href="SvlistarUs" >Usuarios</a></li>
             <li> <a href="SvlistarPlantas">Plantas</a></li>
+            <li><a href="SvListarFamilia">Familia</a> </li>
+            <li><a href="SvListarZona">Zona plantas</a> </li>
+            <li><a href="SvTipoPlanta">Tipos de Plantas</a> </li>
         </ul>
 
 </body>

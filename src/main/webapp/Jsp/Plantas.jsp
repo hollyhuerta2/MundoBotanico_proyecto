@@ -32,7 +32,7 @@
         <img src="./imagen/cinnaicon.jpg" alt="logo">
     </div>
 </header>
-    <h1>Tabla usuarios</h1>
+    <h1>Tabla Plantas</h1>
   <%--  <div class="button-container">
          <a href="./Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
          <a href="./Jsp/EliminarUs.jsp" class="button">ELIMINAR</a>
