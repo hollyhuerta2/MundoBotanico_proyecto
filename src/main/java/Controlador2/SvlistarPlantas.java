@@ -17,13 +17,7 @@ public class SvlistarPlantas extends HttpServlet {
         PlantasDAO plantasDAO = new PlantasDAO();
         List<Plantas> plantas= plantasDAO.selecionar();
         request.setAttribute("plantas", plantas);
-        request.getRequestDispatcher("").forward(request,response);
-
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+        request.getRequestDispatcher("./Jsp/Plantas.jsp").forward(request,response);
 
     }
 }

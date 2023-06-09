@@ -10,6 +10,7 @@
     <main>
     <div class="button-container">
         <a href="SvlistarUs" class="button">Usuarios</a>
+        <a href="SvlistarPlantas" class="button">Plantas</a>
     </div>
     </main>
 </body>
