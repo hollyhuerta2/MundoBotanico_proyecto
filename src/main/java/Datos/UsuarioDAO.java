@@ -90,12 +90,11 @@ public class UsuarioDAO {
 
             if(registros>0) System.out.println("Tu registro ha sido actualizado");
 
-            Conexion.close(state);
-            Conexion.close(conn);
-            Usuario usuario2 = new Usuario();
-
         }catch (Exception e){
             e.printStackTrace();
+        }finally {
+            Conexion.close(state);
+            Conexion.close(conn);
         }
         return registros;
     }
@@ -119,39 +118,34 @@ public class UsuarioDAO {
 
         }
     }
-    public Usuario identificar(Usuario user)throws Exception{
+    public Usuario identificar(String user)throws Exception{
         Connection conn = null;
-        Statement state = null;
+        PreparedStatement state = null;
         ResultSet rs = null;
         Usuario usu= null;
-        String sql = "SELECT nombre, id_usuarioN FROM USUARIO WHERE id_usuarioN= ?";
+
+        String sql = "SELECT * FROM USUARIO WHERE id_usuarioN= ?";
         try{
             conn = Conexion.getConnection();
-            state = conn.createStatement();
-            rs= state.executeQuery(sql);
+            state = conn.prepareStatement(sql);
+            state.setString(1,user);
+            rs= state.executeQuery();
+
             if(rs.next()){
                 usu = new Usuario();
+                usu.setId_usuario(rs.getInt("id_usuario"));
                 usu.setNombre(rs.getString("nombre"));
+                usu.setApellido(rs.getString("apellido"));
+                usu.setCorreo(rs.getString("correo"));
                 usu.setId_usuarioN(rs.getString("id_usuarioN"));
                 usu = new Usuario();
             }
         }catch(Exception e){
             System.out.println("Error" + e.getMessage());
         }finally{
-            if (rs !=null && rs.isClosed() == false){
-                rs.close();
-            }
-            rs = null;
-            if(state!= null && state.isClosed() == false){
-                state.close();
-
-            }
-            state = null;
-            if(conn != null & conn.isClosed() == false){
-                conn.close();
-
-            }
-            conn = null;
+           Conexion.close(rs);
+           Conexion.close(state);
+           Conexion.close(conn);
         }
         return usu;
 

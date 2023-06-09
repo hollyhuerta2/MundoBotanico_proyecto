@@ -57,7 +57,7 @@ public class SvUsuarios extends HttpServlet {
 
         user = this.obtenerUsuario(request);
         daoUsu = new UsuarioDAO();
-        user = daoUsu.identificar(user);
+        //user = daoUsu.identificar(user);
 
         if(user !=null ){
             if(user.getId_usuarioN().equals("Admin")){

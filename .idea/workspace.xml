@@ -10,12 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios +">
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios positivos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvModificarUs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvEliminarUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvEliminarUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvUsuarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/EliminarUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/EliminarUs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Usuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Usuario.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,14 +261,7 @@
       <workItem from="1686091363512" duration="3376000" />
       <workItem from="1686117164604" duration="4925000" />
       <workItem from="1686178794615" duration="26985000" />
-      <workItem from="1686273021072" duration="3921000" />
-    </task>
-    <task id="LOCAL-00014" summary="New commit! cambios nuevos">
-      <created>1684723031332</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1684723031332</updated>
+      <workItem from="1686273021072" duration="7674000" />
     </task>
     <task id="LOCAL-00015" summary="New commit! cambios nuevos DAO">
       <created>1685336915937</created>
@@ -607,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686275118703</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="New commit! cambios positivos">
+      <created>1686277123517</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1686277123517</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,6 +628,7 @@
     <MESSAGE value="New commit! cambios admin" />
     <MESSAGE value="New commit! cambios" />
     <MESSAGE value="New commit! cambios +" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios +" />
+    <MESSAGE value="New commit! cambios positivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios positivos" />
   </component>
 </project>
