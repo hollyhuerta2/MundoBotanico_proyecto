@@ -6,10 +6,13 @@
     <title>Administrador</title>
 </head>
 <body>
+<header>
+</header>
     <h1>Administrador</h1>
     <main>
     <div class="button-container">
         <a href="SvlistarUs" class="button">Usuarios</a>
+        <br>
         <a href="SvlistarPlantas" class="button">Plantas</a>
     </div>
     </main>

@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/mod.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Admin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,6 +77,7 @@
       <recent name="C:\Users\holly\MundoBotanico_proyecto\src\main\webapp\imagen" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\holly\MundoBotanico_proyecto\src\main\webapp\html" />
       <recent name="C:\Users\holly\MundoBotanico_proyecto\src\main\webapp\imagen" />
     </key>
   </component>
@@ -259,14 +261,7 @@
       <workItem from="1686091363512" duration="3376000" />
       <workItem from="1686117164604" duration="4925000" />
       <workItem from="1686178794615" duration="26985000" />
-      <workItem from="1686273021072" duration="28960000" />
-    </task>
-    <task id="LOCAL-00019" summary="New commit! cambios nuevos DAO">
-      <created>1685907120684</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1685907120684</updated>
+      <workItem from="1686273021072" duration="31402000" />
     </task>
     <task id="LOCAL-00020" summary="New commit! cambios nuevos DAO">
       <created>1685907460937</created>
@@ -604,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686303859411</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="New commit!">
+      <created>1686305244360</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1686305244360</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
