@@ -112,12 +112,15 @@ public class UsuarioDAO {
 
             if(registros>0) System.out.println("El registro ha sido eliminado");
 
-            Conexion.close(state);
-            Conexion.close(conn);
-            Usuario usuario3 = new Usuario();
+
+           // Usuario usuario3 = new Usuario();
 
         }catch(Exception e){
             e.printStackTrace();
+        }finally{
+            Conexion.close(state);
+            Conexion.close(conn);
+
         }
         return registros;
     }

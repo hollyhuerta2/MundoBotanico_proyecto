@@ -19,6 +19,7 @@
     <h1>Tabla usuarios</h1>
     <div class="button-container">
         <a href="./Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
+        <a href=""></a>
     </div>
 
     <table>
