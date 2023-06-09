@@ -9,17 +9,21 @@ import java.io.IOException;
 
 @WebServlet(name = "SvEliminarUs", value = "/SvEliminarUs")
 public class SvEliminarUs extends HttpServlet {
-    private UsuarioDAO usDao;
-
-    public void init(){
-        usDao = new UsuarioDAO();
-    }
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String id_usuarioN = request.getParameter("id_usuarioN");
-        usDao.eliminar(Integer.parseInt(id_usuarioN));
-        response.sendRedirect("./Jsp/Usuario.jsp");
+
+        try {
+            String id_usuarioN = request.getParameter("id_usuarioN");
+            UsuarioDAO usDao = new UsuarioDAO();
+
+            usDao.eliminar(id_usuarioN);
+            response.sendRedirect("./mensajeExitoAdmin.jsp");
+        }catch (Exception e){
+            e.printStackTrace();
+            request.setAttribute("msj","Error!");
+            request.getRequestDispatcher("error.jsp").forward(request,response);
+        }
 
     }
 }

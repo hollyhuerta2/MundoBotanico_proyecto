@@ -99,19 +99,15 @@ public class UsuarioDAO {
         }
         return registros;
     }
-    public int eliminar(int usuario){
+    public void eliminar(String usuario){
         Connection conn =null;
         PreparedStatement state =null;
-        int registros=0;
         try{
             conn = Conexion.getConnection();
             state = conn.prepareStatement(deleteSQL);
 
-            state.setInt(1, usuario);
-            registros= state.executeUpdate();
-
-            if(registros>0) System.out.println("El registro ha sido eliminado");
-
+            state.setString(1, usuario );
+             state.executeUpdate();
 
            // Usuario usuario3 = new Usuario();
 
@@ -122,7 +118,6 @@ public class UsuarioDAO {
             Conexion.close(conn);
 
         }
-        return registros;
     }
     public Usuario identificar(Usuario user)throws Exception{
         Connection conn = null;

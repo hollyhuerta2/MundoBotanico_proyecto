@@ -8,6 +8,21 @@
 <html>
 <head>
     <title>Usuario Mundo Bótanico</title>
+    <style>
+        .imagen-redonda{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .imagen-redonda img{
+            float: left;
+            margin-right:10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
 
@@ -19,7 +34,7 @@
     <h1>Tabla usuarios</h1>
     <div class="button-container">
         <a href="./Jsp/registroUsuario.jsp" class="button">REGISTRAR</a>
-        <a href=""></a>
+        <a href="./Jsp/EliminarUs.jsp" class="button">ELIMINAR</a>
     </div>
 
     <table>

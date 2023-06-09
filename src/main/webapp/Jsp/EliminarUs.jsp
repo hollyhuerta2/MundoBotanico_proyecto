@@ -7,7 +7,7 @@
 </head>
 <body>
    <h1>Eliminar Usuario</h1>
-    <form action="SvEliminarUs" method="get">
+    <form action="../SvEliminarUs" method="post">
       <label for="id_usuarioN">Usuario nombre: </label>
       <input type="text" id="id_usuarioN" name="id_usuarioN" required>
       <br>
