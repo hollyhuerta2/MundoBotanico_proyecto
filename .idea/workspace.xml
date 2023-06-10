@@ -11,9 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarCuidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarFam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarHoja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mensajeExitoAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mensajeExitoAdmin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,14 +263,7 @@
       <workItem from="1686117164604" duration="4925000" />
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
-      <workItem from="1686329360315" duration="21658000" />
-    </task>
-    <task id="LOCAL-00025" summary="New commit! cambios nuevos">
-      <created>1685916844453</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1685916844453</updated>
+      <workItem from="1686329360315" duration="23788000" />
     </task>
     <task id="LOCAL-00026" summary="New commit! cambios nuevos">
       <created>1685917573374</created>
@@ -607,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686353866293</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="New commit!">
+      <created>1686365146811</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1686365146811</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
