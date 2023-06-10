@@ -114,7 +114,7 @@
   <div class="button-container">
        <a href="./Jsp2/AgTipoPlanta.jsp" class="button">REGISTRAR</a>
 <%--       <a href="./Jsp/EliminarUs.jsp" class="button">ELIMINAR</a>--%>
-<%--       <a href="./Jsp/BuscarUs.jsp" class="button">MODIFICAR</a>--%>
+      <a href="./Jsp2/ModTipoPlanta.jsp" class="button">MODIFICAR</a>
   </div>
 <table>
     <tr>
