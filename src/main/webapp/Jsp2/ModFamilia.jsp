@@ -6,10 +6,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Agregar familias</title>
+    <title>Modificar Familia</title>
     <style>
         body{
-            background: url(../imagen/fondo4.jpg);
+            background-color: #70163c;
         }
         .form-container {
             width: 300px;
@@ -53,25 +53,23 @@
             border-left: 35px solid #d53e7d;
             border-radius: 6px;
         }
-
     </style>
 </head>
 <body>
 <div id="cuadro">
-        <h1>Agregar familias de plantas</h1>
+    <h1>Modificar Familia</h1>
     <div class="form-container">
-        <form action="../SvAgregarFam" method="post">
-
-          <label for="id_fam">id_fam: </label>
-          <input type="number" name="id_fam" id="id_fam" required>
-          <br>
-          <label for="nombre">nombre familia: </label>
-          <input type="text" name="nombre" id="nombre" required>
-          <br>
-          <label for="descripcion">descripcion: </label>
-          <input type="text" name="descripcion" id="descripcion" required>
-          <br>
-          <input type="submit" value="subir">
+        <form action="../SvModificarFam" method="post">
+            <label for="id_fam">id_fam: </label>
+            <input type="number" name="id_fam" id="id_fam" required>
+            <br>
+            <label for="nombre">Nombre de familia: </label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br>
+            <label for="descripcion">descripción: </label>
+            <input type="text" name="descripcion" id="descripcion" required>
+            <br>
+            <input type="submit" value="Actualizar">
         </form>
     </div>
 </div>
