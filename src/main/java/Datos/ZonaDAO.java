@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ZonaDAO {
     private static final String insertSQL="INSERT INTO ZONA(id_zona,zona,area_geo) VALUES (?,?,?)";
-    private static final String updateSQL="UPDATE ZONA SET zona=?,area_geo=? WHERE id_zona=?";
+    private static final String updateSQL="UPDATE ZONA SET id_zona=? zona=?,area_geo=? WHERE id_zona=?";
 
     public List<Zona> Listar() { //para ver la lista
         Connection conn = null;
@@ -72,8 +72,9 @@ public class ZonaDAO {
             conn = Conexion.getConnection();
             state = conn.prepareStatement(updateSQL);
 
-            state.setString(1, zona.getZona());
-            state.setString(2, zona.getArea_geo());
+            state.setInt(1,zona.getId_zona());
+            state.setString(2, zona.getZona());
+            state.setString(3, zona.getArea_geo());
             state.setInt(3,zona.getId_zona());
 
             registros = state.executeUpdate();

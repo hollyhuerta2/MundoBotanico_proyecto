@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CuidadoPlanDAO {
     public static final String insertSQL ="INSERT INTO CUIDADOPLAN(id_cuidado,tipofk,descripcion) VALUES(?,?,?)";
-    public static final String updateSQL="UPDATE CUIDADOPLAN SET descripcion=? WHERE id_cuidado=?";
+    public static final String updateSQL="UPDATE CUIDADOPLAN SET tipofk=?, descripcion=? WHERE id_cuidado=?";
 
     public List<CuidadoPlan> Listar(){ //para ver la lista
         Connection conn = null;
@@ -70,8 +70,9 @@ public class CuidadoPlanDAO {
             conn = Conexion.getConnection();
             state = conn.prepareStatement(updateSQL);
 
-            state.setString(1,cuid1.getDescripcion());
-            state.setInt(2,cuid1.getId_cuidado());
+            state.setInt(1,cuid1.getTipofk());
+            state.setString(2,cuid1.getDescripcion());
+            state.setInt(3,cuid1.getId_cuidado());
 
             registros = state.executeUpdate();
 
