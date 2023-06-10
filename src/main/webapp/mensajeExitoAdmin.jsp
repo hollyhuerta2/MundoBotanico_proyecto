@@ -27,7 +27,7 @@
 
 <script type="text/javascript">
     function redirectToServlet() {
-        location.href = "./SvlistarUs"; /*al fin me salió*/
+        location.href = "./SvSesionLogin"; /*al fin me salió*/
     }
 </script>
 

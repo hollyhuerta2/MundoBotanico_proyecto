@@ -11,11 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarPlanus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgregarPlanus.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/PlanUsu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/PlanUsu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvSesionLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mensajeExitoAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mensajeExitoAdmin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,14 +262,7 @@
       <workItem from="1686117164604" duration="4925000" />
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
-      <workItem from="1686329360315" duration="20084000" />
-    </task>
-    <task id="LOCAL-00024" summary="New commit! cambios nuevos">
-      <created>1685915296261</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1685915296261</updated>
+      <workItem from="1686329360315" duration="21658000" />
     </task>
     <task id="LOCAL-00025" summary="New commit! cambios nuevos">
       <created>1685916844453</created>
@@ -609,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686351814086</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="New commit!">
+      <created>1686353866293</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353866293</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

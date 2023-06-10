@@ -7,10 +7,11 @@ import java.io.IOException;
 
 @WebServlet(name = "SvSesionLogin", value = "/SvSesionLogin")
 public class SvSesionLogin extends HttpServlet {
-    //@Override
-   /* protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-    }*/
+        request.getRequestDispatcher("./Jsp/Admin.jsp").forward(request,response);
+    }
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
