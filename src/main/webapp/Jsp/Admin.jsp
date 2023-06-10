@@ -63,7 +63,6 @@
             color: #fff;
             padding: 15px;
         }
-
     </style>
 </head>
 <body>
@@ -76,7 +75,6 @@
     </div>
 
 </header>
-
         <ul class="menu-vertical">
             <li> <a href="SvlistarUs" >Usuarios</a></li>
             <li> <a href="SvlistarPlantas">Plantas</a></li>
@@ -88,6 +86,5 @@
             <li><a href="SvUsPlan">Usuarios-plantas</a> </li>
             <li><a href="SvCerrarS">Cerrar sesión</a> </li>
         </ul>
-
 </body>
 </html>
