@@ -20,10 +20,10 @@ holly
       <label for="nombre">Nombre: </label>
       <input type="text" name="nombre" id="nombre" value="<%= ((Usuario)request.getAttribute("usuario")).getNombre()%>" required>
       <br>
-      <label for="apellido">Nombre: </label>
+      <label for="apellido">Apellido: </label>
       <input type="text" name="apellido" id="apellido" value="<%= ((Usuario)request.getAttribute("usuario")).getApellido()%>" required>
       <br>
-      <label for="correo">Nombre: </label>
+      <label for="correo">Correo: </label>
       <input type="text" name="correo" id="correo" value="<%= ((Usuario)request.getAttribute("usuario")).getCorreo()%>" required>
       <br>
       <input type="submit" value="Actualizar">

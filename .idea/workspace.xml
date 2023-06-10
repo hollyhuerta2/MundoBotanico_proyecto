@@ -10,11 +10,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarCuidado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarFam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarHoja.java" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! agregar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador3/SvAgregarPlantas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgCuidados.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgFamilia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgPlantas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgTipoHoja.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgTipoPlanta.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp2/AgZona.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/CuidadosPlan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/CuidadosPlan.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/EditarUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/EditarUs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Familias.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Familias.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/TipoHojas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/TipoHojas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/TipoPlantas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/TipoPlantas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Zonas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Zonas.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,14 +274,7 @@
       <workItem from="1686117164604" duration="4925000" />
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
-      <workItem from="1686329360315" duration="23788000" />
-    </task>
-    <task id="LOCAL-00026" summary="New commit! cambios nuevos">
-      <created>1685917573374</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1685917573374</updated>
+      <workItem from="1686329360315" duration="33266000" />
     </task>
     <task id="LOCAL-00027" summary="New commit! cambios nuevos">
       <created>1685918115723</created>
@@ -608,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686365146811</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="New commit! agregar">
+      <created>1686373228235</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1686373228235</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,6 +643,7 @@
     <MESSAGE value="New commit! cambios nuevos" />
     <MESSAGE value="New commit! DAO" />
     <MESSAGE value="New commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit!" />
+    <MESSAGE value="New commit! agregar" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! agregar" />
   </component>
 </project>
