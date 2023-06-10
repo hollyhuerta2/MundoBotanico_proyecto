@@ -113,7 +113,7 @@
 <h1>Tabla de Plantas de Usuarios</h1>
       <div class="button-container">
        <a href="./Jsp2/AgregarPlanus.jsp" class="button">REGISTRAR</a>
-<%--       <a href="./Jsp/BuscarUs.jsp" class="button">MODIFICAR</a>--%>
+       <a href="./Jsp2/ModPlanus.jsp" class="button">MODIFICAR</a>
   </div>
       <table>
         <tr>
