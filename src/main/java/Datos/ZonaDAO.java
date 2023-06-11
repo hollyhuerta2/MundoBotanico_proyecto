@@ -89,5 +89,26 @@ public class ZonaDAO {
         }
         return registros;
     }
+    public Zona buscarPorZona(String zona){
+        Zona result=null;
+        try{
+            Connection conn =Conexion.getConnection();
+            PreparedStatement state = conn.prepareStatement("SELECT * FROM ZONA WHERE zona=?");
+            state.setString(1,zona);
+            ResultSet rs= state.executeQuery();
+                if(rs.next()){
+                    result = new Zona();
+                    result.setZona(rs.getString("zona"));
+                    result.setArea_geo(rs.getString("area_geo"));
+                }
+                rs.close();
+                state.close();
+                conn.close();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return result;
+    }
 
 }

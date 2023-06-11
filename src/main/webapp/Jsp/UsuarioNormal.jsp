@@ -119,7 +119,7 @@
           <img src="./imagen/flor-de-loto.png" class="icon">
          <div class="dropdown-content">
               <a href="SvlistarPlantas">Plantas</a>
-              <a href="#">Enlace 2</a>
+              <a href="SvBusZona">Zonas</a>
               <a href="#">Enlace 3</a>
              <a href="#">Galería</a>
              <a href="SvCerrarS">cerrar sesión</a>
