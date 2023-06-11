@@ -102,14 +102,28 @@
           color: #bbd5bd;
           font-family: Verdana, serif;
       }
+      .header-content{
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          gap: 20px;
+      }
+
+      .header-content h1{
+          text-align: center;
+          color: #bbd5bd;
+      }
   </style>
 
 </head>
 <body>
 <header>
-  <div class="imagen-redonda">
-    <img src="./imagen/cinnaicon.jpg" alt="logo">
-  </div>
+    <div class="header-content">
+        <div class="imagen-redonda">
+            <img src="./imagen/cinnaicon.jpg" alt="logo">
+        </div>
+        <h1>Administrador</h1>
+    </div>
 </header>
 <h1>Tabla Familias</h1>
   <div class="button-container">
