@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios x.x">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/imagen/flor-de-loto.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/CuidadosPlan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/CuidadosPlan.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Familias.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Familias.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/Plantas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,14 +263,7 @@
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
       <workItem from="1686329360315" duration="51531000" />
-      <workItem from="1686426659335" duration="9182000" />
-    </task>
-    <task id="LOCAL-00035" summary="New commit! cambios al jsp">
-      <created>1685936540028</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1685936540028</updated>
+      <workItem from="1686426659335" duration="16420000" />
     </task>
     <task id="LOCAL-00036" summary="New commit! cambios">
       <created>1685938613044</created>
@@ -609,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686433774277</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="New commit! cambios x.x">
+      <created>1686444421122</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1686444421122</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
