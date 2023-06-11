@@ -10,12 +10,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios us">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/SvRegreso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/SvBusZona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/BusZona.jsp" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios us normal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/SvMostrarCuidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/SvMostrarFamilia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/SvMostrarHoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/SvMostrarTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/MostrarCuidados.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/MostrarFam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/MostrarHoja.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/MostrarTipoPlan.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/ZonaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/ZonaDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,14 +270,7 @@
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
       <workItem from="1686329360315" duration="51531000" />
-      <workItem from="1686426659335" duration="23895000" />
-    </task>
-    <task id="LOCAL-00037" summary="New commit! cambios">
-      <created>1685938972567</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1685938972567</updated>
+      <workItem from="1686426659335" duration="27415000" />
     </task>
     <task id="LOCAL-00038" summary="New commit! cambios">
       <created>1685940025376</created>
@@ -611,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686452778281</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="New commit! cambios us normal">
+      <created>1686470107751</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1686470107751</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,6 +642,7 @@
     <MESSAGE value="New commit! cambios" />
     <MESSAGE value="New commit! cambios x.x" />
     <MESSAGE value="New commit! cambios us" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios us" />
+    <MESSAGE value="New commit! cambios us normal" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios us normal" />
   </component>
 </project>

@@ -120,7 +120,10 @@
          <div class="dropdown-content">
               <a href="SvlistarPlantas">Plantas</a>
               <a href="SvBusZona">Zonas</a>
-              <a href="#">Enlace 3</a>
+              <a href="SvMostrarFamilia">Familias</a>
+             <a href="SvMostrarHoja">Tipo Hoja</a>
+             <a href="SvMostrarTP">Tipo Plantas</a>
+             <a href="SvMostrarCuidados">Cuidados Plantas</a>
              <a href="#">Galería</a>
              <a href="SvCerrarS">cerrar sesión</a>
          </div>
