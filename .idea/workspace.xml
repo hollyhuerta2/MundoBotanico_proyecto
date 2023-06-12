@@ -10,34 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios us normal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/ServletGalery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/ServletInforma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/PlantasInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/estilo2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen9.jpg" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios diseño">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp3/GaleriaMB.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/GaleriaMB.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp3/PlantasInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/PlantasInfo.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,14 +265,7 @@
       <workItem from="1686273021072" duration="31462000" />
       <workItem from="1686329360315" duration="51531000" />
       <workItem from="1686426659335" duration="31143000" />
-      <workItem from="1686546545831" duration="5209000" />
-    </task>
-    <task id="LOCAL-00040" summary="New commit! cambios">
-      <created>1685942291888</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1685942291888</updated>
+      <workItem from="1686546545831" duration="7685000" />
     </task>
     <task id="LOCAL-00041" summary="New commit! cambios">
       <created>1685943357133</created>
@@ -634,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686476728013</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="New commit! cambios diseño">
+      <created>1686552193870</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1686552193871</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,6 +638,7 @@
     <MESSAGE value="New commit! cambios x.x" />
     <MESSAGE value="New commit! cambios us" />
     <MESSAGE value="New commit! cambios us normal" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios us normal" />
+    <MESSAGE value="New commit! cambios diseño" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit! cambios diseño" />
   </component>
 </project>

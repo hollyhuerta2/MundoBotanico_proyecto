@@ -119,7 +119,7 @@
           <img src="./imagen/flor-de-loto.png" class="icon">
          <div class="dropdown-content">
              <a  href="ServletInforma">Plantas Información</a>
-              <a href="SvMostrarPlan">Plantas</a>
+              <a href="SvMostrarPlan">Plantas Tabla de contenido</a>
               <a href="SvBusZona">Zonas</a>
               <a href="SvMostrarFamilia">Familias</a>
              <a href="SvMostrarHoja">Tipo Hoja</a>
