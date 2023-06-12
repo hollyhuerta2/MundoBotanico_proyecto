@@ -11,10 +11,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! cambios us normal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/SvMostrarPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/MostrarPlantas.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/ServletGalery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/ServletInforma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/PlantasInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/estilo2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img2/imagen9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp3/GaleriaMB.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp3/GaleriaMB.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,24 +80,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/holly/MundoBotanico_proyecto/src/main/webapp/imagen&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/holly/MundoBotanico_proyecto/src/main/webapp/img2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\holly\MundoBotanico_proyecto\src\main\webapp\img2" />
       <recent name="C:\Users\holly\MundoBotanico_proyecto\src\main\webapp\imagen" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -264,14 +288,8 @@
       <workItem from="1686178794615" duration="26985000" />
       <workItem from="1686273021072" duration="31462000" />
       <workItem from="1686329360315" duration="51531000" />
-      <workItem from="1686426659335" duration="30020000" />
-    </task>
-    <task id="LOCAL-00039" summary="New commit! cambios">
-      <created>1685940812932</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1685940812932</updated>
+      <workItem from="1686426659335" duration="31143000" />
+      <workItem from="1686546545831" duration="5209000" />
     </task>
     <task id="LOCAL-00040" summary="New commit! cambios">
       <created>1685942291888</created>
@@ -609,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686473638619</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="New commit! cambios us normal">
+      <created>1686476728013</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1686476728013</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

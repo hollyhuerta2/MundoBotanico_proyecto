@@ -6,8 +6,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Galeria</title>
-    <link rel="stylesheet" href="./css/estilo2.css"/>
+    <title>PLANTAS</title>
     <style>
         body {
             background-color: #5ed556;
@@ -54,6 +53,11 @@
             padding: 20px;
             border-radius: 10px;
             text-align: center;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            background-color: #306b19;
         }
         h2{
             text-align: center;
@@ -110,44 +114,13 @@
         <div class="imagen-redonda">
             <img src="./imagen/MundoBotanico.png" alt="logo">
         </div>
-        <h1>Galería de imágenes</h1>
+        <h1>Conoce más sobre las plantas</h1>
     </div>
 </header>
-
 <section>
-    <div class="row">
-        <div class="column">
-            <img alt="foto 1" src="./img2/imagen1.jpg"/>
-            <img alt="foto 2" src="./img2/imagen2.jpg"/>
-            <img alt="foto 3" src="./img2/imagen3.jpg"/>
-            <img alt="foto 4" src="./img2/imagen4.jpg"/>
-            <img alt="foto 5" src="./img2/imagen5.jpg"/>
-        </div>
-        <div class="column">
-            <img alt="foto 6" src="./img2/imagen6.jpg"/>
-            <img alt="foto 7" src="./img2/imagen7.jpg"/>
-            <img alt="foto 8" src="./img2/imagen8.jpg"/>
-            <img alt="foto 9" src="./img2/imagen9.jpg"/>
-            <img alt="foto 10" src="./img2/imagen10.jpg"/>
-        </div>
-        <div class="column">
-            <img alt="foto 11" src="./img2/imagen11.jpg"/>
-            <img alt="foto 12" src="./img2/imagen12.jpg"/>
-            <img alt="foto 13" src="./img2/imagen13.jpg"/>
-            <img alt="foto 14" src="./img2/imagen14.jpg"/>
-            <img alt="foto 15" src="./img2/imagen15.jpg"/>
-        </div>
-        <div class="column">
-            <img alt="foto 16" src="./img2/imagen16.jpg"/>
-            <img alt="foto 17" src="./img2/imagen17.jpg"/>
-            <img alt="foto 18" src="./img2/imagen18.jpg"/>
-            <img alt="foto 19" src="./img2/imagen19.jpg"/>
-            <img alt="foto 20" src="./img2/imagen20.jpg"/>
-        </div>
+    <h2>Esto es lo que debes de conocer sobre ellas</h2>
 
-    </div>
 </section>
-
 <footer>
     <div class="button-container">
         <button onclick="redirectToServlet()" class="button">Salir</button>

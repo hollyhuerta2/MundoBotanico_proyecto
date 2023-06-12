@@ -118,13 +118,14 @@
         <div class="dropdown">
           <img src="./imagen/flor-de-loto.png" class="icon">
          <div class="dropdown-content">
+             <a  href="ServletInforma">Plantas Información</a>
               <a href="SvMostrarPlan">Plantas</a>
               <a href="SvBusZona">Zonas</a>
               <a href="SvMostrarFamilia">Familias</a>
              <a href="SvMostrarHoja">Tipo Hoja</a>
              <a href="SvMostrarTP">Tipo Plantas</a>
              <a href="SvMostrarCuidados">Cuidados Plantas</a>
-             <a href="#">Galería</a>
+             <a href="ServletGalery">Galería</a>
              <a href="SvCerrarS">cerrar sesión</a>
          </div>
         </div>
