@@ -30,8 +30,16 @@
           <input type="reset"/>
 
       </form>
+        <p>¿No tienes una cuenta?</p>
+        <button onclick="redirectToServlet()">REGISTRATE</button>
       <br/>
       <p id="marca">Welcome</p>
     </div>
+
+    <script type="text/javascript">
+        function redirectToServlet() {
+            location.href = "./ServletDirec"; /*al fin me salió*/
+        }
+    </script>
 </body>
 </html>
