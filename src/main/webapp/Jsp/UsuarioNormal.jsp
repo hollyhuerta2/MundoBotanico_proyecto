@@ -126,7 +126,7 @@
              <a href="SvMostrarTP">Tipo Plantas</a>
              <a href="SvMostrarCuidados">Cuidados Plantas</a>
              <a href="ServletGalery">Galería</a>
-             <a href="ServletNuevoUS">No tienes cuenta? REGISTRATE</a>
+<%--             <a href="ServletNuevoUS">No tienes cuenta? REGISTRATE</a>--%>
              <a href="SvCerrarS">cerrar sesión</a>
          </div>
         </div>
