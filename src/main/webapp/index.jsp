@@ -30,8 +30,9 @@
           <input type="reset"/>
 
       </form>
-        <p>¿No tienes una cuenta?</p>
-        <button onclick="redirectToServlet()">REGISTRATE</button>
+<%--        <p>¿No tienes una cuenta?</p>--%>
+        <%--<a href="./NewLogin.jsp">REGISTRAR</a>
+        <button onclick="redirectToServlet()">REGISTRATE</button>--%>
       <br/>
       <p id="marca">Welcome</p>
     </div>

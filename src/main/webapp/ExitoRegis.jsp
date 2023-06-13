@@ -31,7 +31,7 @@
 </div>
 <script type="text/javascript">
     function redirectToServlet() {
-        location.href = "./ServletNuevoUS"; /*al fin me salió*/
+        location.href = "./SvNuevoUs"; /*al fin me salió*/
     }
 </script>
 

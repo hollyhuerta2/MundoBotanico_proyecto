@@ -61,7 +61,7 @@
 <body>
 <div id="cuadro">
     <div class="form-container">
-        <form action="ServletNuevoUS" method="post">
+        <form action="../SvNuevoUs" method="post">
         <label for="id_usuario">id_usuario: </label>
         <input type="number" name="id_usuario" id="id_usuario" placeholder="Un número.." required>
         <br>
