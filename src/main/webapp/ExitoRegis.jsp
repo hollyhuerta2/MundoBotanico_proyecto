@@ -27,7 +27,7 @@
     <h2>Bienvenido nuevo usuario</h2>
     <img src="./imagen/Wandafeliz.gif" alt="Gif-Wanda">
     <p>para iniciar sesión dirigete al siguiente botón</p>
-    <button onclick="redirectToServlet()">iniciar sesión</button>
+   <button onclick="redirectToServlet()">iniciar sesión</button>
 </div>
 <script type="text/javascript">
     function redirectToServlet() {

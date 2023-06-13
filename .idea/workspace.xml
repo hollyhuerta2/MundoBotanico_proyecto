@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! final?">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ServletNuevoUS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador4/ServletDirec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ExitoRegis.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/NewLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ServletNuevoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ServletNuevoUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ExitoRegis.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ExitoRegis.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/NewLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/NewLogin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,14 +270,8 @@
       <workItem from="1686426659335" duration="31143000" />
       <workItem from="1686546545831" duration="8528000" />
       <workItem from="1686642645070" duration="1958000" />
-      <workItem from="1686645840320" duration="3272000" />
-    </task>
-    <task id="LOCAL-00042" summary="New commit! cambios">
-      <created>1685945117923</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1685945117923</updated>
+      <workItem from="1686645840320" duration="3545000" />
+      <workItem from="1686649429933" duration="1984000" />
     </task>
     <task id="LOCAL-00043" summary="New commit! cambios">
       <created>1686017749069</created>
@@ -615,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686554481431</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="New commit! final?">
+      <created>1686649365946</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1686649365946</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,16 +647,5 @@
     <MESSAGE value="New commit! cambios diseño" />
     <MESSAGE value="New commit! final?" />
     <option name="LAST_COMMIT_MESSAGE" value="New commit! final?" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/ExitoRegis.jsp</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
