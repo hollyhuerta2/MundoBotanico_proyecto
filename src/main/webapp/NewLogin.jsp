@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: holly
@@ -60,7 +61,7 @@
 <body>
 <div id="cuadro">
     <div class="form-container">
-        <form action="../ServletNuevoUS" method="post">
+        <form action="ServletNuevoUS" method="post">
         <label for="id_usuario">id_usuario: </label>
         <input type="number" name="id_usuario" id="id_usuario" placeholder="Un número.." required>
         <br>

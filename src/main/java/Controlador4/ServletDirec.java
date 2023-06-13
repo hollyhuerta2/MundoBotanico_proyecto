@@ -10,6 +10,6 @@ public class ServletDirec extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("./NewLogin.jsp").forward(request,response);
+        request.getRequestDispatcher("./Jsp/NuevoLogin.jsp").forward(request,response);
     }
 }

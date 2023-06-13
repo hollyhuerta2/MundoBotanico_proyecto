@@ -10,12 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit! final?">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="4c743f86-9a42-4028-986e-8ac4325dd2da" name="Changes" comment="New commit!">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/NuevoLogin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ServletNuevoUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ServletNuevoUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ExitoRegis.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ExitoRegis.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Jsp/UsuarioNormal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador4/ServletDirec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador4/ServletDirec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/NewLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/NewLogin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -271,21 +270,10 @@
       <workItem from="1686546545831" duration="8528000" />
       <workItem from="1686642645070" duration="1958000" />
       <workItem from="1686645840320" duration="3545000" />
-      <workItem from="1686649429933" duration="1984000" />
-    </task>
-    <task id="LOCAL-00043" summary="New commit! cambios">
-      <created>1686017749069</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1686017749069</updated>
-    </task>
-    <task id="LOCAL-00044" summary="New commit! cambios servlet">
-      <created>1686018448063</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1686018448063</updated>
+      <workItem from="1686649429933" duration="2361000" />
+      <workItem from="1686657695863" duration="1373000" />
+      <workItem from="1686663281829" duration="870000" />
+      <workItem from="1686686637861" duration="1777000" />
     </task>
     <task id="LOCAL-00045" summary="New commit! cambios servlet">
       <created>1686022861449</created>
@@ -616,7 +604,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686649365946</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="New commit! final?">
+      <created>1686651581377</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1686651581378</updated>
+    </task>
+    <task id="LOCAL-00093" summary="New commit!">
+      <created>1686651719220</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1686651719220</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +639,6 @@
     <MESSAGE value="New commit! cambios positivos" />
     <MESSAGE value="New commit! cambios nuevos" />
     <MESSAGE value="New commit! DAO" />
-    <MESSAGE value="New commit!" />
     <MESSAGE value="New commit! agregar" />
     <MESSAGE value="New commit! jsp" />
     <MESSAGE value="New commit! cambios" />
@@ -646,6 +647,7 @@
     <MESSAGE value="New commit! cambios us normal" />
     <MESSAGE value="New commit! cambios diseño" />
     <MESSAGE value="New commit! final?" />
-    <option name="LAST_COMMIT_MESSAGE" value="New commit! final?" />
+    <MESSAGE value="New commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit!" />
   </component>
 </project>

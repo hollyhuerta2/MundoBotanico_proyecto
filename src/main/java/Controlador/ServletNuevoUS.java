@@ -11,11 +11,13 @@ import java.io.IOException;
 @WebServlet(name = "ServletNuevoUS", value = "/ServletNuevoUS")
 public class ServletNuevoUS extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("./NewLogin.jsp").forward(request,response);
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        request.getRequestDispatcher("./index.jsp").forward(request,response);
     }
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
             int id_usuario = Integer.parseInt(request.getParameter("id_usuario"));
             String nombre = request.getParameter("nombre");
